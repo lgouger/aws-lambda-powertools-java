@@ -6,6 +6,9 @@ on:
       - published
   workflow_dispatch: {}
 
+permissions:
+  id-token: write
+
 jobs:
   docs:
     runs-on: ubuntu-latest
